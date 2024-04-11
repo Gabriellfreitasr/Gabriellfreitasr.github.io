@@ -29,7 +29,7 @@
 .navbar .navbar__content .navbar__links a {
     padding: 1rem;
     display: inline-block;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
 }
 
 .navbar .navbar__content .navbar__links a:hover {
@@ -235,14 +235,15 @@ header .header__left p {
 
 .projects ul li {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 4rem;
-    margin: 4rem 0; /* Ajustar */
+    margin: 12rem 0; /* Ajustar */
 }
 
 .projects ul li.projects__reversed-list {
     flex-direction: row-reverse;
+    text-align: right;
 }
 
 .projects ul li::not(:last-of-type) {
@@ -279,6 +280,7 @@ header .header__left p {
     .projects ul li,
     .projects ul li.projects__reversed-list {
         flex-direction: column;
+        text-align: center;
     }
 
     .projects ul li .projects__info {
