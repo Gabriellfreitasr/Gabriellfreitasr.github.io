@@ -158,6 +158,11 @@ header .header__left p {
     max-width: 66rem;
 }
 
+.about .btn-cv {
+    margin-top: 6rem;
+    margin-left: auto;
+}
+
 @media only screen and (max-width: 768px) {
     .about {
         flex-direction: column;
@@ -171,6 +176,10 @@ header .header__left p {
 
     .about .about__right {
         text-align: center;
+    }
+
+    .about .btn-cv {
+        margin-bottom: 5rem;
     }
 }
 
