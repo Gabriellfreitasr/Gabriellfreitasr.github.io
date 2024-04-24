@@ -15,12 +15,13 @@
     <nav class="navbar">
         <div class="navbar__content max-width mb-0">
             <a href="/"> 
-                <img src="assets/logo_.png" alt="logo" width="40%">
+                <img src="assets/logo_.png" alt="logo" width="35%">
             </a>
             <ul class="navbar__links">
                 <li><a href="#header"> Início </a></li>
                 <li><a href="#about"> Sobre </a></li>
                 <li><a href="#skills"> Habilidades </a></li>
+                <li><a href="#academic"> Formação </a></li>
                 <li><a href="#projects"> Projetos </a></li>
                 <li><a href="#footer"> Contato </a></li>
             </ul>
@@ -32,6 +33,7 @@
                     <li><a href="#header"> Início </a></li>
                     <li><a href="#about"> Sobre </a></li>
                     <li><a href="#skills"> Habilidades </a></li>
+                    <li><a href="#academic"> Formação </a></li>
                     <li><a href="#projects"> Projetos </a></li>
                     <li><a href="#footer"> Contato </a></li>
                 </ul>
@@ -43,48 +45,51 @@
 
     <header id="header" class="max-width">
         <div class="header__left">
-            <h1> Olá! Sou Gabriel Freitas, Desenvolvedor Front end </h1>
-            <p> Desenvolvedor frontend com vasta experiência em desenvolvimento de aplicações web...</p>
-            <a href="#about" class="btn btn-primary"> Saiba Mais! </a>
+            <h3 class="header__subtitle"> Olá mundo! eu sou </h3>
+            <h1> Gabriel Freitas,<br> Desenvolvedor Front end </h1>
+            <h3 class="header__subtitle"> Bem-vindo ao meu portfólio. </h3>
+            <a href="#about" class="btn btn-primary"> Mais sobre mim </a>
         </div>
 
         <div class="header__right">
             <div class="header__image"> 
-                <img src="assets/Creator.svg" alt="Minha foto" width="400px" class="header__img">
+                <img src="assets/Programming.svg" alt="Minha foto" width="400px" class="header__img">
             </div>            
         </div>
     </header>
 
     <!-- About -->
 
-    <section id="about" class="about max-width">
-        <div class="about__left">
-            <h2 class="secondary-title"> Além do Código: Quem sou eu ? </h2>
-            <p> Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre o meu trabalho? </p>
-            <ul>
-                <li> <a href="https://www.linkedin.com/in/gabriellfreitasr/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin"> </a></li>
-                <li> <a href="https://github.com/Gabriellfreitasr" target="_blank"><img src="assets/github.svg" alt="Github"> </a></li>
-                <li> <a href="https://www.instagram.com/gabriellfreitasr/" target="_blank"><img src="assets/instagram.svg" alt="instagram"> </a></li>
-            </ul>
+    <section class="about"> 
+        <section id="about" class="about max-width">
+            <div class="about__left">
+                <h2 class="secondary-title"> Além do Código: Quem sou eu ? </h2>
+                <p> Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre o meu trabalho? </p>
+                <ul>
+                    <li> <a href="https://www.linkedin.com/in/gabriellfreitasr/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin"> </a></li>
+                    <li> <a href="https://github.com/Gabriellfreitasr" target="_blank"><img src="assets/github.svg" alt="Github"> </a></li>
+                    <li> <a href="https://www.instagram.com/gabriellfreitasr/" target="_blank"><img src="assets/instagram.svg" alt="instagram"> </a></li>
+                </ul>
 
-            <a href="https://drive.google.com/file/d/1DHkfYQB9D17f1OWdGpzb0HCd39PW-o1s/view?usp=sharing" class="btn btn-cv" target="_blank"> Baixar CV </a>
+                <a href="https://drive.google.com/file/d/1DHkfYQB9D17f1OWdGpzb0HCd39PW-o1s/view?usp=sharing" class="btn btn-cv" target="_blank"> Baixar CV </a>
 
-        </div>
+            </div>
 
-        <div class="about__right"> 
-            <h3 class="tertiary-title mb-m"> Desenvolvedor Frontend, apaixonado por tecnologia. </h3>
+            <div class="about__right"> 
+                <h2 class="secondary-title mb-m"> Sobre mim </h3>
 
-            <P> Olá! Sou Gabriel Freitas, um desenvolvedor frontend apaixonado por tecnologia e soluções criativas. Com pouco mais de 2 anos de experiência em desenvolvimento web, desde que comecei a estudar programação, estou constantemente me dedicando para adquirir novos conhecimentos. Minha jornada é marcada pelo desejo constante de aprender e crescer como profissional. </P>
+                <P> Olá! Sou Gabriel Freitas, um desenvolvedor frontend apaixonado por tecnologia e soluções criativas. Com pouco mais de 2 anos de experiência em desenvolvimento web, desde que comecei a estudar programação, estou constantemente me dedicando para adquirir novos conhecimentos. Minha jornada é marcada pelo desejo constante de aprender e crescer como profissional. </P>
 
-            <p> Eu amo o desafio de aprender algo novo e grandioso como o mundo da programação. Estou buscando a realização do meu sonho que é ingressar no mercado de trabalho como programador Front-end. </p>
-        </div>
+                <p> Eu amo o desafio de aprender algo novo e grandioso como o mundo da programação. Estou buscando a realização do meu sonho que é ingressar no mercado de trabalho como programador Front-end. </p>
+            </div>
+        </section>
     </section>
-
+    
     <!-- Skills -->
 
     <section id="skills" class="skills">
         <div class="skills__content max-width">
-            <h2 class="tertiary-title"> Minhas Ferramentas </h2>
+            <h2 class="secondary-title"> Habilidades </h2>
             <p class="description"> Descubra algumas habilidades e ferramentas que domino. </p>
 
             <ul>
@@ -92,36 +97,89 @@
                     <div class="image-container">
                         <img src="assets/notebook.png" alt="Desenvolvimento Web" class="skills__img">
                     </div>
-                    <h3> Desenvolvimento Web </h3>
-                    <p> Experiência em desenvolvimento Frontend como foco em tecnologias modernas </p>
+                    <h3> DESENVOLVIMENTO WEB </h3>
+                    <p> Experiência em desenvolvimento Frontend, com foco em tecnologias modernas. </p>
                 </li>
 
                 <li class="skills__item"> 
                     <div class="image-container">
-                        <img src="assets/figma.svg" alt="Figma" class="skills__img">
+                        <img src="assets/html5.svg" alt="HTML5" class="skills__img">
                     </div>
-                    <h3> Figma </h3>
-                    <p> Habilidade em criar layouts modernos e responsivos </p>
+                    <h3> HTML5 </h3>
+                    <p> Desenvolver estruturas web modernas e semânticas. </p>
+                </li>
+
+                <li class="skills__item"> 
+                    <div class="image-container">
+                        <img src="assets/css.svg" alt="CSS3" class="skills__img">
+                    </div>
+                    <h3> CSS3 </h3>
+                    <p> Proficiência em estilização avançada para interfaces web. </p>
+                </li>
+
+                <li class="skills__item"> 
+                    <div class="image-container">
+                        <img src="assets/javascript.svg" alt="JavaScript" class="skills__img">
+                    </div>
+                    <h3> JAVASCRIPT </h3>
+                    <p> Desenvolvimento de interações dinâmicas em páginas web. </p>
                 </li>
 
                 <li class="skills__item"> 
                     <div class="image-container">
                         <img src="assets/phone.png" alt="UX Design" class="skills__img">
                     </div>
-                    <h3> UX Design </h3>
-                    <p> Conhecimentos em design de interface e experiência do usuário visualmente atraente e intuitivas </p>
+                    <h3> UX DESIGN </h3>
+                    <p> Conhecimentos em design de interface e experiência do usuário visualmente atraente e intuitivas. </p>
                 </li>
 
                 <li class="skills__item"> 
                     <div class="image-container">
                         <img src="assets/git.svg" alt="Git" class="skills__img">
                     </div>
-                    <h3> Git/Github </h3>
+                    <h3> GIT/GITHUB </h3>
                     <p> Controle de revisão distribuído, rápido e escalável. </p>
+                </li>
+
+                <li class="skills__item"> 
+                    <div class="image-container">
+                        <img src="assets/react.svg" alt="React" class="skills__img">
+                    </div>
+                    <h3> REACT </h3>
+                    <p> Habilidade em criar interfaces web dinâmicas e interativas. </p>
+                </li>
+
+                <li class="skills__item"> 
+                    <div class="image-container">
+                        <img src="assets/figma.svg" alt="Figma" class="skills__img">
+                    </div>
+                    <h3> FIGMA </h3>
+                    <p> Habilidade em criar layouts modernos e responsivos. </p>
                 </li>
             </ul>
         </div> 
     </section> 
+
+    <!-- Sessão de Histórico Acadêmico -->
+    <section id="academic" class="academic">
+        <h2 class="secondary-title"> Formação acadêmica </h2>
+        <div class="academic__courses">
+            <div class="academic__courses__box">
+                <ul>
+                    <li class="academic__courses__item__img"><img src="assets/Alura.png" class="academic__img"></li>
+                    <li class="academic__courses__item__title"><h3> Formação Front-end </h3></li>
+                    <li class="academic__courses__item__subtitle"><p>2024 - Alura</p></li>
+                </ul>
+            </div>
+            <div class="academic__courses__box">
+                <ul>
+                    <li class="academic__courses__item__img"><img src="assets/unifanor.png" class="academic__img"></li>
+                    <li class="academic__courses__item__title"><h3> Engenharia de Software </h3></li>
+                    <li class="academic__courses__item__subtitle"><p>2026 - Unifanor</p></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <!-- Projects -->
 
@@ -140,8 +198,9 @@
                 <div class="projects__info">
                     <h3 class="tertiary-title"> Rélogio Digital </h3>
                     <p> Esse projeto visa criar uma interface moderna e funcional para exibir as horas de forma digital. Ele foi desenvolvido utilizando HTML, CSS e JavaScript, oferecendo uma experiência de usuário intuitiva e elegante. </p>
-                    <a href="https://relogio-digital-silk.vercel.app/" target="_blank"> <img src="assets/olho_.png" class="projects__img"> </a>
-                    <a href="https://github.com/Gabriellfreitasr/Relogio_Digital.git" target="_blank"> <img src="assets/código_.png" class="projects__img"> </a>
+
+                    <a href="https://relogio-digital-silk.vercel.app/" target="_blank"> <span class="projects__site"> Site</span> </a>
+                    <a href="https://github.com/Gabriellfreitasr/Relogio_Digital.git" target="_blank"> <span class="projects__repositorio"> Repositório </span></a>
                 </div>
             </li>
 
@@ -153,8 +212,8 @@
                 <div class="projects__info">
                     <h3 class="tertiary-title"> TecBlog </h3>
                     <p> O "TecBlog" oferece aos leitores uma plataforma completa para se manterem informados sobre uma variedade de tópicos interessantes. Sua estrutura organizada e sua abordagem abrangente garantem uma experiência de usuário satisfatória. </p>
-                    <a href="https://tecblog-delta.vercel.app/" target="_blank"> <img src="assets/olho_.png" class="projects__img"> </a>
-                    <a href="https://github.com/Gabriellfreitasr/TecBlog.git" target="_blank"> <img src="assets/código_.png" class="projects__img"> </a>
+                    <a href="https://tecblog-delta.vercel.app/" target="_blank"> <span class="projects__site"> Site</span> </a>
+                    <a href="https://github.com/Gabriellfreitasr/TecBlog.git" target="_blank"> <span class="projects__repositorio"> Repositório </span> </a>
                 </div>
             </li>
 
@@ -166,8 +225,8 @@
                 <div class="projects__info">
                     <h3 class="tertiary-title"> Capa de Filme </h3>
                     <p> Learning Page desenvolvida com base no filme em cartaz Mario Bros. Tem como objetivo oferecer aos espectadores uma experiência imersiva e informativa, mergulhando nos temas, personagens e elementos do filme. </p>
-                    <a href="https://mario-bros-ecru.vercel.app/" target="_blank"> <img src="assets/olho_.png" class="projects__img"> </a>
-                    <a href="https://github.com/Gabriellfreitasr/Mario_Bros.git" target="_blank"> <img src="assets/código_.png" class="projects__img"> </a>
+                    <a href="https://mario-bros-ecru.vercel.app/" target="_blank"> <span class="projects__site"> Site</span> </a>
+                    <a href="https://github.com/Gabriellfreitasr/Mario_Bros.git" target="_blank"> <span class="projects__repositorio"> Repositório </span> </a>
                 </div>
             </li>
 
@@ -179,8 +238,8 @@
                 <div class="projects__info">
                     <h3 class="tertiary-title"> Jogo do Número Secreto </h3>
                     <p> Esse projeto se trata de um jogo divertido e desafiador, desenvolvido para testar suas habilidades de adivinhação. Com uma interface dinâmica e atraente oferece uma experiência prática e bonita para os jogadores. </p>
-                    <a href="https://jogo-numerosecreto-nu.vercel.app/" target="_blank"> <img src="assets/olho_.png" class="projects__img"> </a>
-                    <a href="https://github.com/Gabriellfreitasr/Jogo-Numero-Secreto.git" target="_blank"> <img src="assets/código_.png" class="projects__img"> </a>
+                    <a href="https://jogo-numerosecreto-nu.vercel.app/" target="_blank"> <span class="projects__site"> Site </span> </a>
+                    <a href="https://github.com/Gabriellfreitasr/Jogo-Numero-Secreto.git" target="_blank"> <span class="projects__repositorio"> Repositório </span> </a>
                 </div>
             </li>
         </ul>
@@ -189,6 +248,7 @@
     <!-- Footer -->
 
     <footer id="footer"> 
+
         <div class="footer__content max-width mb-0">
             <h2 class="tertiary-title mb-s"> Dúvidas ?  </h2>
             <p class="mb-m"> 
@@ -209,7 +269,5 @@
         </div>
     </footer>
 
-    <!-- Script -->
-    <script src="scripts/index.js"></script>
 </body>
 </html>
