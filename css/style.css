@@ -179,11 +179,11 @@ header .header__left p {
 
     .about .about__left {
         max-width: 66rem;
-        text-align: center;
+        text-align: justify;
     }
 
     .about .about__right {
-        text-align: center;
+        text-align: justify;
     }
 
     .about .btn-cv {
@@ -318,6 +318,7 @@ header .header__left p {
 
 .projects ul li .projects__info p {
     margin: 1rem 0 1rem;
+    text-align: justify;
 }
 
 .projects ul li .projects__info a {
@@ -341,7 +342,6 @@ header .header__left p {
     background: var(--white);
     color: var(--primary-color);
     font-size: 15px;
-    
 }
 
 @media only screen and (max-width: 768px) {
@@ -357,6 +357,10 @@ header .header__left p {
 
     .projects ul li .image img {
         min-width: auto;
+    }
+
+    .projects .projects__info p {
+        text-align: justify;
     }
 }
 
