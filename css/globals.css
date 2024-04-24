@@ -39,6 +39,8 @@ h1 {
   font-size: 4rem;
   font-weight: 700;
   color: var(--primary-color);
+  text-align: center;
+
 }
 
 .tertiary-title {
