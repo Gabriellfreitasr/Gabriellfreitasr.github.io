@@ -25,13 +25,13 @@ a {
 }
 
 h1 {
-  font-size: 6.3rem;
+  font-size: 5rem;
   font-weight: 700;
   color: var(--primary-color);
 }
 
 .header__subtitle {
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: var(--primary-color);
 }
 
@@ -154,6 +154,11 @@ p:not(:last-of-type),
     padding: 1rem;
     display: inline-block;
     font-size: 1.2rem;
+  }
+
+  .header__subtitle {
+    font-size: 2rem;
+    color: var(--primary-color);
   }
 }
 
