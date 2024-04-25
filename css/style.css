@@ -188,6 +188,10 @@ header .header__left p {
     .about .btn-cv {
         margin-bottom: 5rem;
     }
+
+    .secondary-title {
+        text-align: center;
+    }
 }
 
 /* Skills */
