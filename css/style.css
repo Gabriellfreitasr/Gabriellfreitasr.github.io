@@ -200,6 +200,14 @@ header .header__left p {
     scroll-margin-top: 15rem;
 }
 
+.skills__item {
+    background-color: #d1d1d121;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 3px;
+    box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.3);
+}
+
 .skills .skills__content {
     padding: 6rem 4rem;
     text-align: center;
@@ -261,7 +269,6 @@ header .header__left p {
     width: 30rem;
     height: 20rem;
     border: 2px outset black;
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -313,6 +320,7 @@ header .header__left p {
     min-width: 40rem;
     max-width: 47rem;
     height: auto;
+    border: 0.3rem solid #ccc;
 }
 
 .projects ul li .projects__info {
