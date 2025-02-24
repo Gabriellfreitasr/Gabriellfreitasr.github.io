@@ -93,6 +93,17 @@ p:not(:last-of-type),
   font-size: 16px;
 }
 
+.btn-skills {
+  margin-top: 5rem;
+  background-color: var(--write);
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.7rem;
+  border: 1px solid var(--black);
+  box-shadow: 0.2rem 0.2rem rgb(0, 0, 0);
+  font-size: 16px;
+}
+
 .max-width {
   width: 100%;
   max-width: 130rem; /*140rem*/

@@ -1,0 +1,104 @@
+/* Header */
+.max-width-skills{
+  padding: 0;
+  margin: auto;
+  max-width: 120rem;
+}
+
+/* Seção de Habilidades */
+#habilidades {
+    padding: 30px 20px;
+    text-align: center;
+    margin: 10px 10px;
+  }
+  
+  #habilidades h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  #habilidades p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+  
+  .skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary-color);
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  .progress-bar {
+    position: relative;
+    background-color: #40546b4d; /* Fundo branco */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 18px;
+    flex: 3;
+  }
+  
+  .progress-bar::before {
+    content: attr(data-skill) '%'; /* Exibe a porcentagem como texto */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* font-size: 12px; */
+    color: #40546b00; 
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #07176e; /* Cor da medição */
+    width: 0; /* Inicialmente 0, será definido com CSS */
+    transition: width 1.5s ease;
+  }
+  
+  /* Estilo para cada nível de habilidade */
+  .progress-bar[data-skill="80"] .progress {
+    width: 80%;
+  }
+  
+  .progress-bar[data-skill="95"] .progress {
+    width: 95%;
+  }
+  
+  .progress-bar[data-skill="85"] .progress {
+    width: 85%;
+  }
+  
+  .progress-bar[data-skill="75"] .progress {
+    width: 75%;
+  }
+  
+  .progress-bar[data-skill="94"] .progress {
+    width: 94%;
+  }
+  
+  .progress-bar[data-skill="45"] .progress {
+    width: 45%;
+  }
+
+  .progress-bar[data-skill="93"] .progress {
+    width: 93%;
+  }

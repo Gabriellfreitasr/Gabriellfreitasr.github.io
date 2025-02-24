@@ -1,0 +1,125 @@
+@import './variables.css';
+@import './globals.css';
+
+/* Contato */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--white);
+}
+
+.navbar .navbar__content {
+    padding: 3rem 4rem 1rem; /* Ajustar */
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navbar__content .navbar__links li {
+  display: inline-block;
+}
+
+.navbar .navbar__content .navbar__links li:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+.navbar .navbar__content .navbar__links a {
+  padding: 1rem;
+  display: inline-block;
+  font-size: 1.8rem;
+}
+
+.navbar .navbar__content .navbar__links a:hover {
+  color: var(--tertiary-color);
+}
+
+#contato {
+    background-color: #d1d1d121;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5rem;
+  }
+  
+  #contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 800;
+  }
+  
+  #contato p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+    font-weight: 600;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #d1d1d109;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #288cd3;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #005fa3;
+    font-size: 18.2px;
+  }
+
+/* Footer */
+
+footer {
+    background-color: var(--gray);
+}
+
+footer .footer__content {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
+}
+
+footer .footer__content .footer__contact span {
+    display: block;
+    font-weight: 500;
+}
+
+footer .footer__content ul li {
+    display: inline-block;
+    
+}
+
+footer .footer__content ul a {
+    display: inline-block;
+    padding: 1rem;
+}
+
+footer .footer__content .footer__copyright {
+    font-size: 1.4rem;
+}
